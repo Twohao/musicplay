@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <ImageView
+            android:id="@+id/iv_gedan_pic"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/music_logo"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:id="@+id/tv_gedan_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我们相爱得甜蜜蜜"
+            android:textSize="13sp"
+            android:layout_marginTop="4dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="@color/subblack"/>
+        <TextView
+            android:id="@+id/tv_gedan_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="甜蜜,情侣,浪漫,couple"
+            android:textSize="10sp"
+            android:layout_marginTop="3dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="#888888"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:id="@+id/tv_billlist_ranking"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="01"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="15dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/tv_billlist_ranking"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true">
+            <TextView
+                android:id="@+id/tv_music_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="心跳"
+                android:textColor="@color/black"
+                android:textSize="13sp"/>
+            <TextView
+                android:id="@+id/tv_music_artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="汪苏泷"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="10sp"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/iv_download_music"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/billlist_download_selector"
+            android:layout_marginRight="15dp"
+            android:clickable="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
